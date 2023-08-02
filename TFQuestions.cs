@@ -21,7 +21,7 @@ namespace Exam_System_C__Console_App
 
         public override void AddQuestion()
 		{
-            Console.WriteLine($"Header {Header}");
+            Console.WriteLine($"{Header}");
 
             Console.WriteLine("Enter Body OF Questions ");
 			body=Console.ReadLine();
@@ -30,13 +30,14 @@ namespace Exam_System_C__Console_App
 			{
                 Console.WriteLine("Enter The marks OF Q");
 
-            } while (!(int.TryParse(Console.ReadLine(), out marks))  && (marks>0) && (marks<3)  );
+            } while (!(int.TryParse(Console.ReadLine(), out marks)));
+
 			Mark = marks;
 			bool Flage=false;
 			int RightAnswers;
 			do
 			{
-                Console.WriteLine("Enter The Id Of Right Answer");
+                Console.WriteLine("Enter The Id Of Right Answer \n 1 - false \n 2 - true");
 				Flage=int.TryParse(Console.ReadLine(), out RightAnswers);
 				if (RightAnswers== 1 && RightAnswers ==2)
 					Flage = true;
@@ -50,5 +51,7 @@ namespace Exam_System_C__Console_App
 
 
 		}
+
+
 	}
 }

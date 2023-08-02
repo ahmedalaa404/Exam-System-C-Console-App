@@ -4,9 +4,15 @@ namespace Exam_System_C__Console_App
 {
 	internal class Program
 	{
-		static void Main(string[] args)
+		static void Main()
 		{
-			Console.WriteLine("Hello World!");
+
+			Subject S1 = new Subject(1, "c#");
+			S1.Subjectexam.ShowExam();
+
+
+
+
 		}
 	}
 }
