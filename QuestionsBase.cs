@@ -96,11 +96,6 @@ namespace Exam_System_C__Console_App
 		}
 
 		public abstract void AddQuestion();
-
-
-
-
-
 	}
 
 
