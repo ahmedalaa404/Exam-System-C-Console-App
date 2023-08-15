@@ -24,8 +24,15 @@ namespace Exam_System_C__Console_App
 		public abstract void ShowExam();
 
 		public abstract void CreateExam();
+		public override string ToString()
+		{
+			return base.ToString();
+		}
 
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> d144259c6aa89acd50017574fc778a611fdf0646
 	}
 }

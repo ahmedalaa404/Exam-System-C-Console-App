@@ -33,7 +33,11 @@ namespace Exam_System_C__Console_App
 				Console.WriteLine(ListQuestions[i]+"\t" );
 				for (int n = 0; n < ListQuestions[i].answerList.Length; n++)
 				{
+<<<<<<< HEAD
                     Console.WriteLine((n+1)+"--"+ ListQuestions[i].answerList[n].AnswerText+"\n");
+=======
+                    Console.WriteLine((n+1)+"--"+ ListQuestions[i].answerList[n]+"\n");
+>>>>>>> d144259c6aa89acd50017574fc778a611fdf0646
                 }
                 Console.WriteLine("--------------------------");
 				int UserAnswerId;
@@ -55,7 +59,11 @@ namespace Exam_System_C__Console_App
 				foreach (var item in ListQuestions)
 				{
                     Console.WriteLine(item);
+<<<<<<< HEAD
                     Console.WriteLine($" \t Right Answers Is = {item.rightAnswer.AnswerText}");
+=======
+                    Console.WriteLine($" \t Right Answers Is = {item.rightAnswer}");
+>>>>>>> d144259c6aa89acd50017574fc778a611fdf0646
                 }
             }
 		}

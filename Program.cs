@@ -8,6 +8,7 @@ namespace Exam_System_C__Console_App
 		{
 
 			Subject S1 = new Subject(1, "c#");
+<<<<<<< HEAD
 			S1.StartExam();
 			S1.Subjectexam.ShowExam();
 
@@ -15,6 +16,11 @@ namespace Exam_System_C__Console_App
 				
 
 
+=======
+			S1.Subjectexam.ShowExam();
+
+
+>>>>>>> d144259c6aa89acd50017574fc778a611fdf0646
 
 
 		}

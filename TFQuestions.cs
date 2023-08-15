@@ -53,6 +53,9 @@ namespace Exam_System_C__Console_App
 		}
 
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> d144259c6aa89acd50017574fc778a611fdf0646
 	}
 }
